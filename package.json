@@ -1,0 +1,22 @@
+{
+  "name": "skd-template",
+  "version": "0.0.1",
+  "description": "一个快速开发sdk的模版文件夹",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -w -c" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@rollup/plugin-typescript": "^8.3.0",
+    "rollup": "^2.59.0",
+    "rollup-plugin-cleandir": "^1.0.0",
+    "rollup-plugin-typescript2": "^0.30.0"
+  }
+}
