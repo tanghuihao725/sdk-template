@@ -8,11 +8,11 @@ export default [{
   input: './src/index.ts', // 打包入口
   output: [{ // 打包出口
 	  file: './dist/index.js', // 最终打包出来的文件路径和文件名
-    format: 'cjs', // umd是兼容amd/cjs/iife的通用打包格式，适合浏览器
+    format: 'cjs', 
   },{
     file: './dist/index.umd.js',
     name: 'thh',
-    format: 'umd'
+    format: 'umd' // umd是兼容amd/cjs/iife的通用打包格式，适合浏览器
   }
 ],
   plugins: [ // 打包插件
